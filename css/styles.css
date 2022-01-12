@@ -80,7 +80,7 @@ a {
 .link-arrow:hover::after {
   margin-left: 10px;
 }
-@media screen and(min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .link-arrow {
     font-size: 1.5rem;
   }
@@ -105,7 +105,7 @@ a {
   font-size: 1.6rem;
   padding: 0.5rem 1.5rem;
 }
-@media screen and(min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .badge {
     font-size: 1.5rem;
   }
@@ -484,7 +484,7 @@ a {
   font-size: 3rem;
 }
 .collapsible__chevron {
-  transition: rotate(-90);
+  transform: rotate(-90deg);
   transition: transform 0.3s;
 }
 .collapsible__content {
